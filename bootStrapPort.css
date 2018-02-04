@@ -1,0 +1,18 @@
+#photo {
+    /* margin-top: 100px; */
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 15px;
+    border: solid 1px #717acc
+}
+
+
+/* .bio {
+    display: inline-block;
+} */
+
+.socialIcon {
+    height: 25%;
+    width: 25%;
+}

@@ -1,18 +1,74 @@
+body {
+    /* background-color: #5f6e963f */
+}
+
+#mainContent {
+    /* background-color: rgba(175, 68, 68, 0.164); */
+    /* padding: 25px; */
+}
+
+hr {
+    size: 10px;
+    color: #000000;
+    border-top: 2px;
+}
+
 #photo {
     /* margin-top: 100px; */
     width: 25%;
     height: 25%;
     float: left;
     margin-right: 15px;
-    border: solid 1px #717acc
+    border: solid 1px #717acc;
+    border-radius: 3%;
 }
 
+.bio {
+    border: solid 1px gray;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3%;
+    /* margin-right: 50px; */
+    background-color: rgba(169, 169, 169, 0.267);
+}
 
-/* .bio {
-    display: inline-block;
-} */
+.bio h1 {
+    font-family: 'Quicksand', sans-serif;
+    /* color: red; */
+}
+
+p {
+    text-align: justify;
+    /* display: inline-block; */
+}
+
+#connect {
+    border: solid 1px gray;
+    text-align: center;
+    float: right;
+    border-radius: 3%;
+    padding-bottom: 10px;
+    background-color: rgba(169, 169, 169, 0.267);
+}
 
 .socialIcon {
-    height: 25%;
-    width: 25%;
+    height: 20%;
+    width: 20%;
+    margin: 15px;
+}
+
+#footer {
+    background-color: rgba(169, 169, 169, 0.267);
+    border-top: solid 1px rgba(0, 0, 0, 0.363);
+    text-align: center;
+    margin-top: 150px;
+    height: 75px;
+}
+
+#footer p {
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+    padding-top: 15px;
 }

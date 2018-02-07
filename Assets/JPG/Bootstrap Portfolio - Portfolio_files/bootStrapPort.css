@@ -1,12 +1,5 @@
-/* body {
-    background-image: url(https://lh3.ggpht.com/dssk8lVFb64D2Di8h66r1af186HAKS2lFwHqYOW5JlifVl3FWRR2ZCGn6LRR1DvlHLBt=h900);
-    position: fixed;
-    width: 100%;
-} */
-
-#nav {
-    background-color: rgb(131, 175, 206);
-    margin-bottom: 50px;
+body {
+    /* background-color: #5f6e963f */
 }
 
 #mainContent {
@@ -27,7 +20,7 @@ hr {
     height: 25%;
     float: left;
     margin-right: 15px;
-    /* border: solid 1px #717acc; */
+    border: solid 1px #717acc;
     border-radius: 3%;
 }
 
@@ -38,7 +31,7 @@ hr {
     padding-right: 10px;
     border-radius: 3%;
     /* margin-right: 50px; */
-    background-color: rgb(131, 175, 206);
+    background-color: rgba(169, 169, 169, 0.267);
 }
 
 .bio h1 {
@@ -57,7 +50,7 @@ p {
     float: right;
     border-radius: 3%;
     padding-bottom: 10px;
-    background-color: rgb(131, 175, 206);
+    background-color: rgba(169, 169, 169, 0.267);
 }
 
 .socialIcon {
@@ -67,7 +60,7 @@ p {
 }
 
 #footer {
-    background-color: rgb(131, 175, 206);
+    background-color: rgba(169, 169, 169, 0.267);
     border-top: solid 1px rgba(0, 0, 0, 0.363);
     text-align: center;
     margin-top: 150px;
@@ -82,7 +75,7 @@ p {
 }
 
 #portfolio {
-    background-color: rgb(131, 175, 206);
+    background-color: rgba(169, 169, 169, 0.267);
     display: inline-block;
     border: solid 1px black;
     border-radius: 3px;
@@ -112,30 +105,8 @@ p {
 #portfolio h4 {
     color: white;
     font-size: 12pt;
-    background-color: rgb(131, 175, 206);
+    background-color: rgba(0, 0, 255, 0.558);
     padding: 4px;
     width: 100%;
     border-radius: 3px;
 }
-
-#form {
-    border: solid 1px black;
-    background-color: rgb(131, 175, 206);
-    padding: 15px;
-    border-radius: 3px;
-    height: 300px;
-}
-
-#message {
-    width: 450px;
-    height: 100px;
-}
-
-input {
-    margin: 3px;
-}
-
-
-/* ??? */
-
-@media
